@@ -1,5 +1,5 @@
 
-function Soda() {
+function Services() {
   return (
     <>
       <div className="relative bg-gradient-to-b from-slate-900 to-amber-950 w-full h-[895px] grid grid-cols-4 grid-row-3 gap-0">
@@ -35,5 +35,5 @@ function Soda() {
   )
 }
 
-export default Soda
+export default Services
 

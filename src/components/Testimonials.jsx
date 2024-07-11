@@ -1,6 +1,6 @@
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 import { blue } from '@mui/material/colors';
-function Tesimonials() {
+function Testimonials() {
   return (
     <>  
      <div className='bg-zinc-400 h-[900px] w-full'>
@@ -19,7 +19,7 @@ function Tesimonials() {
                     <p className="text-black text-center text-xs font-extrabold font-mono">I recently embarked on a European adventure with Wanderlust Travels,
                        and it was an experience of a lifetime! From the cobblestone streets of Paris to the picturesque canals of Venice, 
                        every moment was filled with wonders..</p>
-                    < FormatQuoteIcon sx={{ fontSize: 40, color : blue [500]}} /> 
+                    <FormatQuoteIcon sx={{ fontSize: 40, color : blue [500]}} /> 
                   </div>
                 </div>
                 </div>
@@ -65,4 +65,4 @@ function Tesimonials() {
   )
 }
 
-export default Tesimonials
+export default Testimonials

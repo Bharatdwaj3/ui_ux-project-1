@@ -1,17 +1,20 @@
 import TravelBanner from './components/TravelBanner'
 import Footer from './components/Footer';
 import ProductCard from './components/ProductCard';
-import Soda from './components/Sodaa';
-import Tesimonials from './components/Tesimonials'
+import Soda from './components/Services';
+import Testimonials from './components/Testimonials'
+import Navbar from './components/Navbar'
 function App() {
+ 
 
 
   return (
     <>
+      <Navbar/>
       <TravelBanner/>
       <ProductCard/>
       <Soda/>
-      <Tesimonials/>
+      <Testimonials/>
       <Footer/>
     </>
   )
