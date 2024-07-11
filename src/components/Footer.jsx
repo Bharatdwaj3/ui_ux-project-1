@@ -16,10 +16,13 @@ function Footer() {
             </div>
             <div className=" h-36 w-full absolute bottom-0 left-0">
               <ul className="space-y-2 text-xs text-white font-thin font-serif">
-                <InstagramIcon/><TwitterIcon/><FacebookIcon/>
-                <li>WikiPedia</li>
-                <li>WikiPedia</li>
-                <li>WikiPedia</li>
+                <div className="flex justify-start">
+                  <InstagramIcon fontSize="large"/>
+                  <TwitterIcon fontSize="large"/>
+                  <FacebookIcon fontSize="large"/>
+                </div>
+                <li className="text-xl">Phone : 91+ 98753-04467</li>
+                <li className="text-xl">Email : WonderLustTravel@Gmail.com</li>
               </ul>
             </div>
             </div>
@@ -27,56 +30,56 @@ function Footer() {
 
         <div className=" h-48 relative">
           <div className=" w-full h-12">
-            <h1 className="text-white font-extrabold text-left text-xl font-sans">Resources</h1>
+            <h1 className="text-white font-extrabold text-left text-xl font-sans">About_US</h1>
           </div>
           <div className=" h-36 w-full absolute bottom-0 left-0">
             <ul className="space-y-2 text-xs text-white font-thin font-serif">
-              <li>WikiPedia</li>
-              <li>WikiPedia</li>
-              <li>WikiPedia</li>
-              <li>WikiPedia</li>
+              <li>Serices</li>
+              <li>Packages</li>
+              <li>Support</li>
+              <li>Partners</li>
             </ul>
           </div>
         </div>
 
         <div className=" h-48 relative">
           <div className=" w-full h-12">
-            <h1 className="text-white font-extrabold text-left text-xl font-sans">Resources</h1>
+            <h1 className="text-white font-extrabold text-left text-xl font-sans">Carrer</h1>
           </div>
           <div className=" h-36 w-full absolute bottom-0 left-0">
             <ul className="space-y-2 text-xs text-white font-thin font-serif">
-              <li>WikiPedia</li>
-              <li>WikiPedia</li>
-              <li>WikiPedia</li>
-              <li>WikiPedia</li>
+              <li>Legal</li>
+              <li>Suppliers</li>
+              <li>Partners</li>
+              <li>Team</li>
             </ul>
           </div>
         </div>
 
       <div className=" h-48 relative">
           <div className=" w-full h-12">
-            <h1 className="text-white font-extrabold text-left text-xl font-sans">Resources</h1>
+            <h1 className="text-white font-extrabold text-left text-xl font-sans">Adventures</h1>
           </div>
           <div className=" h-36 w-full absolute bottom-0 left-0">
             <ul className="space-y-2 text-xs text-white font-thin font-serif">
-              <li>WikiPedia</li>
-              <li>WikiPedia</li>
-              <li>WikiPedia</li>
-              <li>WikiPedia</li>
+              <li>Religious</li>
+              <li>Shared Experiences</li>
+              <li>HIstorical</li>
+              <li>Geographical</li>
             </ul>
           </div>
         </div>
 
         <div className=" h-48 relative">
           <div className=" w-full h-12">
-            <h1 className="text-white font-extrabold text-left text-xl font-sans">Resources</h1>
+            <h1 className="text-white font-extrabold text-left text-xl font-sans">Others</h1>
           </div>
           <div className=" h-36 w-full absolute bottom-0 left-0">
             <ul className="space-y-2 text-xs text-white font-thin font-serif">
-              <li>WikiPedia</li>
-              <li>WikiPedia</li>
-              <li>WikiPedia</li>
-              <li>WikiPedia</li>
+              <li>Partners</li>
+              <li>Culture</li>
+              <li>Cuisine</li>
+              <li>Community</li>
             </ul>
           </div>
         </div>
